@@ -1,4 +1,24 @@
 // =====================================================
-// base
+// color
 // =====================================================
-@import "_normalize.scss";
+$beige_color: #fff9f0;
+$brown_color: #4e413a;
+$lightbrown_color: #c28e44;
+$gray_color: #979797;
+$lightgray_color: #d7d7d7;
+$pink_color: #f5d4ca;
+$red_color: #ff245c;
+$white_color: #fff;
+
+$primary_color: $brown_color;
+$base_color: $beige_color;
+// =====================================================
+// fonts
+// =====================================================
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+// =====================================================
+// scss
+// =====================================================
+@import "_reset";
+@import "partials/header";
