@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title></title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="FontAwesome5BrandsRegular, Font Awesome 5 Brands" font-size="30" font-weight="normal">
-        <g id="Footer" transform="translate(-648.000000, -303.000000)" fill="#C28E44">
-            <g transform="translate(0.000000, 301.000000)" id="Group-2">
-                <g transform="translate(648.000000, 0.000000)">
-                    <g id="">
-                        <text>
-                            <tspan x="0" y="27"></tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 26.2 26.2" style="enable-background:new 0 0 26.2 26.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#C28E44;}
+</style>
+<title></title>
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g id="Footer" transform="translate(-648.000000, -303.000000)">
+		<g id="Group-2" transform="translate(0.000000, 301.000000)">
+			<g transform="translate(648.000000, 0.000000)">
+				<g id="_xF09A_">
+					<g class="st0">
+						<path class="st1" d="M26.2,26.8c0,0.4-0.1,0.7-0.4,1s-0.6,0.4-1.1,0.4h-6.7V18.1h3.4l0.5-3.9h-3.9v-2.5c0-0.7,0.1-1.1,0.4-1.4
+							c0.3-0.4,0.8-0.5,1.6-0.5h2.1V6.1C21.3,6,20.3,6,19.1,6c-1.5,0-2.8,0.4-3.7,1.3S14,9.5,14,11.2v2.9h-3.4v3.9H14v10.2H1.5
+							c-0.4,0-0.8-0.1-1.1-0.4S0,27.2,0,26.8V3.5C0,3,0.1,2.7,0.4,2.4S1,2,1.5,2h23.3c0.4,0,0.7,0.1,1,0.4s0.4,0.6,0.4,1.1V26.8z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

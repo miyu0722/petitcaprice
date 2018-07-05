@@ -5,15 +5,112 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.1rem; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  -webkit-padding-start: 0;
+  padding-start: 0;
+  -webkit-padding-end: 0;
+  padding-end: 0;
+  margin: 0; }
 
-.nav_top__wrap {
+input {
+  border: none;
+  -webkit-appearance: none; }
+
+.header_top__wrap {
   background: #4e413a;
-  color: #fff9f0; }
+  color: #fff9f0;
+  padding: 14px 0; }
 
-.nav_bottom__wrap {
+.header_top__box {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%; }
+
+.header_bottom__wrap {
+  align-items: center;
   background: #fff9f0;
-  color: #4e413a; }
+  color: #4e413a;
+  padding: 26px 0; }
+
+.header_bottom__box {
+  margin: 0 auto;
+  width: 75%; }
+
+.header__logo {
+  align-items: center;
+  display: flex; }
+  .header__logo img {
+    margin-right: 14px; }
+  .header__logo a {
+    text-decoration: none; }
+  .header__logo a:link {
+    color: #fff9f0; }
+  .header__logo a:visited {
+    color: #fff9f0; }
+  .header__logo a:hover {
+    color: #c28e44; }
+  .header__logo a:active {
+    color: #c28e44; }
+
+.header__ttl {
+  white-space: nowrap; }
+
+.header_icon__list {
+  display: flex; }
+  .header_icon__list li {
+    margin-right: 26px; }
+  .header_icon__list a {
+    text-decoration: none; }
+  .header_icon__list a:link {
+    color: #fff9f0; }
+  .header_icon__list a:visited {
+    color: #fff9f0; }
+  .header_icon__list a:hover {
+    color: #c28e44; }
+  .header_icon__list a:active {
+    color: #c28e44; }
+
+.header__icon {
+  align-items: center;
+  display: flex; }
+  .header__icon img {
+    margin-right: 6px; }
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.2rem; }
+  .header__nav a {
+    align-items: center;
+    display: flex;
+    text-decoration: none; }
+  .header__nav a:link {
+    color: #4e413a; }
+  .header__nav a:visited {
+    color: #4e413a; }
+  .header__nav a:hover {
+    color: #c28e44; }
+  .header__nav a:active {
+    color: #c28e44; }
+  .header__nav span::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url(/img/arrow-down.svg);
+    background-size: contain;
+    vertical-align: middle; }
+
+.header__nav__item {
+  margin-right: 4px; }
+
+.header__searchbox {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff9f0;
+  padding: 4px 6px;
+  width: 208px; }

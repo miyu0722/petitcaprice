@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>ion-ios-arrow-down - Ionicons Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Ionicons" font-size="18" font-weight="400">
-        <g id="Gnav" transform="translate(-888.000000, -130.000000)" fill="#C28E44">
-            <g id="Nav2">
-                <g transform="translate(0.000000, 91.000000)">
-                    <g id="Group-9" transform="translate(786.400000, 33.000000)">
-                        <text id="ion-ios-arrow-down---Ionicons-Copy">
-                            <tspan x="102" y="17"></tspan>
-                        </text>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 12 8" style="enable-background:new 0 0 12 8;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#C28E44;}
+</style>
+<title>ion-ios-arrow-down - Ionicons Copy</title>
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g id="Gnav" transform="translate(-888.000000, -130.000000)">
+		<g id="Nav2">
+			<g transform="translate(0.000000, 91.000000)">
+				<g id="Group-9" transform="translate(786.400000, 33.000000)">
+					<g class="st0">
+						<path class="st1" d="M112.6,6.9l0.7,0.7l-5.6,6l-5.6-6l0.7-0.7l5,5.3L112.6,6.9z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

@@ -18,7 +18,13 @@ $base_color: $beige_color;
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 // =====================================================
+// size
+// =====================================================
+$header_top_width: 90%;
+$header_bottom_width: 75%;
+// =====================================================
 // scss
 // =====================================================
 @import "_reset";
+@import "partials/forms";
 @import "partials/header";
