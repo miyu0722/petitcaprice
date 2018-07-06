@@ -18,8 +18,7 @@
     padding: 26px 0;
   }
   &__bottom_box {
-    margin: 0 auto;
-    width: $header_bottom_width;
+    @include primary_wrapper();
   }
   &__logo__wrap {
     align-items: center;
@@ -59,10 +58,10 @@
       display: flex;
       text-decoration: none;
     }
+    span {
+      margin-right: 4px;
+    }
     @include link_color_primary();
-  }
-  &__nav__item {
-    margin-right: 4px;
   }
   &__searchbox__wrap {
     position: relative;

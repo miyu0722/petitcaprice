@@ -20,8 +20,9 @@ $base_color: $beige_color;
 // =====================================================
 // size
 // =====================================================
+$main_wrapper_width: 75%;
 $header_top_width: 90%;
-$header_bottom_width: 75%;
+$header_bottom_width: $main_wrapper_width;
 // =====================================================
 // mixin
 // =====================================================
@@ -37,9 +38,14 @@ $header_bottom_width: 75%;
   a:hover { color: $lightbrown_color; }
   a:active { color: $lightbrown_color; }
 }
+@mixin primary_wrapper() {
+  margin: 0 auto;
+  width: $main_wrapper_width;
+}
 // =====================================================
 // scss
 // =====================================================
 @import "_reset";
 @import "partials/forms";
 @import "partials/header";
+@import "partials/top/main_visual";

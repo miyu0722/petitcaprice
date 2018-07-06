@@ -4,9 +4,13 @@ html {
   font-size: 62.5%; }
 
 body {
+  color: #4e413a;
   font-size: 1.4rem;
   font-family: 'Lato', sans-serif;
   letter-spacing: 0.1rem; }
+
+h1 {
+  margin: 0; }
 
 ul {
   list-style: none;
@@ -14,6 +18,9 @@ ul {
   padding-start: 0;
   -webkit-padding-end: 0;
   padding-end: 0;
+  margin: 0; }
+
+p {
   margin: 0; }
 
 input {
@@ -88,6 +95,8 @@ input {
     align-items: center;
     display: flex;
     text-decoration: none; }
+  .header__nav span {
+    margin-right: 4px; }
   .header__nav a:link {
     color: #4e413a; }
   .header__nav a:visited {
@@ -96,9 +105,6 @@ input {
     color: #c28e44; }
   .header__nav a:active {
     color: #c28e44; }
-
-.header__nav__item {
-  margin-right: 4px; }
 
 .header__searchbox__wrap {
   position: relative; }
@@ -118,3 +124,87 @@ input {
     vertical-align: middle;
     height: 16px;
     width: 16px; }
+
+.main_visual__container {
+  background: #fff9f0; }
+
+.main_visual__wrap {
+  margin: 0 auto;
+  width: 75%;
+  display: table;
+  padding: 50px 0 140px; }
+
+.main_visual__box_left {
+  display: table-cell;
+  position: relative;
+  width: 50%; }
+  .main_visual__box_left img {
+    width: 100%; }
+
+.main_visual__box_right {
+  display: table-cell;
+  position: relative;
+  width: 50%; }
+  .main_visual__box_right img {
+    left: -20px;
+    position: absolute;
+    top: 10%;
+    width: 60%; }
+
+.main_visual--rec01 {
+  background: #c28e44;
+  bottom: 50px;
+  height: 12vw;
+  left: -50px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 12vw; }
+
+.main_visual--rec02 {
+  background: rgba(151, 151, 151, 0.5);
+  top: -20px;
+  height: 10vw;
+  right: -30px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 6vw;
+  z-index: 1; }
+
+.main_visual--rec03 {
+  background: #f5d4ca;
+  bottom: -25px;
+  height: 12vw;
+  left: -130px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 40vw;
+  z-index: 1; }
+
+.main_visual--rec04 {
+  background: #c28e44;
+  top: 10px;
+  height: 6vw;
+  right: 70px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 6vw; }
+
+.main_visual--rec05 {
+  background: #f5d4ca;
+  top: 90px;
+  height: 7vw;
+  right: 20px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 3vw;
+  z-index: 1; }
+
+.main_visual--rec06 {
+  background: #4e413a;
+  bottom: 75px;
+  height: 3vw;
+  right: 10px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  width: 20vw;
+  z-index: 1; }

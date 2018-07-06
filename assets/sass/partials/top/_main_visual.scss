@@ -1,0 +1,87 @@
+.main_visual {
+  &__container {
+    background: $base_color;
+  }
+  &__wrap {
+    @include primary_wrapper();
+    display: table;
+    padding: 50px 0 140px;
+  }
+  &__box_left {
+    display: table-cell;
+    position: relative;
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  &__box_right {
+    display: table-cell;
+    position: relative;
+    width: 50%;
+    img{
+      left: -20px;
+      position: absolute;
+      top: 10%;
+      width: 60%;
+    }
+  }
+  &--rec01 {
+    background: $lightbrown_color;
+    bottom: 50px;
+    height: 12vw;
+    left: -50px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 12vw;
+  }
+  &--rec02 {
+    background: rgba($gray_color, 0.5);
+    top: -20px;
+    height: 10vw;
+    right: -30px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 6vw;
+    z-index: 1;
+  }
+  &--rec03 {
+    background: $pink_color;
+    bottom: -25px;
+    height: 12vw;
+    left: -130px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 40vw;
+    z-index: 1;
+  }
+  &--rec04 {
+    background: $lightbrown_color;
+    top: 10px;
+    height: 6vw;
+    right: 70px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 6vw;
+  }
+  &--rec05 {
+    background: $pink_color;
+    top: 90px;
+    height: 7vw;
+    right: 20px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 3vw;
+    z-index: 1;
+  }
+  &--rec06 {
+    background: $brown_color;
+    bottom: 75px;
+    height: 3vw;
+    right: 10px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 20vw;
+    z-index: 1;
+  }
+}
