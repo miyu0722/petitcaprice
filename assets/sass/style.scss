@@ -23,6 +23,21 @@ $base_color: $beige_color;
 $header_top_width: 90%;
 $header_bottom_width: 75%;
 // =====================================================
+// mixin
+// =====================================================
+@mixin link_color_base() {
+  a:link { color: $base_color; }
+  a:visited { color: $base_color; }
+  a:hover { color: $lightbrown_color; }
+  a:active { color: $lightbrown_color; }
+}
+@mixin link_color_primary() {
+  a:link { color: $primary_color; }
+  a:visited { color: $primary_color; }
+  a:hover { color: $lightbrown_color; }
+  a:active { color: $lightbrown_color; }
+}
+// =====================================================
 // scss
 // =====================================================
 @import "_reset";
